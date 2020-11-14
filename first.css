@@ -1,0 +1,100 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.bgimage{
+	background-image: url('home.jpg');
+	background-size: 130% 100%;
+	width: 100%;
+	height: 100vh;
+}
+
+.menu{
+
+	width: 100%;
+	height: 100px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.leftmenu{
+	width: 15%;
+	line-height: 100px;
+	float: left;
+
+}
+
+.rightmenu ul{
+	margin-left: 100px;
+}
+
+.leftmenu h4{
+	padding-left: 40px;
+	font-weight: bold;
+	color: White;
+	font-size: 22px;
+	font-family: 'Montserrat', sans-serif; 
+
+}
+
+.rightmenu{
+	width: 75%;
+	height: 100px;
+	float: right;
+
+}
+
+.rightmenu ul li{
+	font-family: 'Montserrat', sans-serif; 
+	display: inline-block;
+	list-style: none;
+	font-size: 15px;
+	color: white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 10px;
+	text-transform: uppercase;
+
+}
+
+#firstlist{
+	color: orange;
+}
+
+.rightmenu ul li:hover{
+	color: orange;
+}
+
+.text{
+	width: 100%;
+	margin-top: 70px;
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+}
+
+.text h1{
+	font-size:30px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700px;
+	margin:40px 0px;
+
+}
+
+.text h3{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#logsign{
+	background-color: white;
+	border: none;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 150px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 25px;
+	border: 3px solid white;
+}
